@@ -1,0 +1,30 @@
+server:
+  port: 8880
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.150.128:8848
+        prefix: ${spring.application.name}
+        file-extension: yaml
+        group: DEFAULT_GROUP
+        namespace: baea1f4a-140b-4d17-9aad-c059d89d99b3
+        #路由配置
+        extension-configs[0]:
+          data-id: router.yaml
+          group: { spring.cloud.nacos.config.group }
+          refresh: true
+        #日志配置
+        extension-configs[1]:
+          data-id: log.yaml
+          group: { spring.cloud.nacos.config.group }
+          refresh: true
+        #权限认证配置
+        extension-configs[2]:
+          data-id: security.yaml
+          group: { spring.cloud.nacos.config.group }
+          refresh: true
+      discovery:
+        server-addr: ${spring.cloud.nacos.config.server-addr}
+        group: ${spring.cloud.nacos.config.group}
+        namespace: ${spring.cloud.nacos.config.namespace}
