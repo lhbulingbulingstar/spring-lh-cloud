@@ -1,3 +1,6 @@
 [submodule "parent"]
 	path = parent
 	url = https://github.com/lhbulingbulingstar/parent.git
+[submodule "gateway"]
+	path = gateway
+	url = https://github.com/lhbulingbulingstar/gateway.git
