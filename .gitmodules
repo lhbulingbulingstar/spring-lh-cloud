@@ -4,3 +4,6 @@
 [submodule "gateway"]
 	path = gateway
 	url = https://github.com/lhbulingbulingstar/gateway.git
+[submodule "common"]
+	path = common
+	url = https://github.com/lhbulingbulingstar/common.git
