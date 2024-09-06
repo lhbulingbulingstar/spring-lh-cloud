@@ -2,11 +2,11 @@ package com.lh.cloud.auth.service;
 
 import com.lh.cloud.common.param.response.Result;
 import com.lh.cloud.common.param.response.ResultCode;
+import com.lh.cloud.common.util.TokenService;
+import com.lh.cloud.common.util.UserProvider;
 import com.lh.cloud.framework.exception.CustomException;
-import com.lh.cloud.framework.redis.util.TokenService;
-import com.lh.cloud.framework.redis.util.UserProvider;
 import com.lh.cloud.user.api.UserApi;
-import com.lh.cloud.user.domain.User;
+import com.lh.cloud.common.entity.User;
 import lombok.AllArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

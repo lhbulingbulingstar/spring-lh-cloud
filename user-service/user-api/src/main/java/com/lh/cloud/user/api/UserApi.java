@@ -2,7 +2,7 @@ package com.lh.cloud.user.api;
 
 import com.lh.cloud.common.param.response.Result;
 import com.lh.cloud.user.api.fallback.UserApiFallback;
-import com.lh.cloud.user.domain.User;
+import com.lh.cloud.common.entity.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

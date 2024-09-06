@@ -1,7 +1,7 @@
 package com.lh.cloud.user.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.lh.cloud.user.domain.User;
+import com.lh.cloud.common.entity.User;
 import org.springframework.stereotype.Repository;
 
 /**

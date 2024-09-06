@@ -1,7 +1,7 @@
 package com.lh.cloud.user.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.lh.cloud.user.domain.User;
+import com.lh.cloud.common.entity.User;
 
 /**
  * @date: 2022/6/22 16:56

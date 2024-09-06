@@ -1,16 +1,15 @@
 package com.lh.cloud.user.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.github.pagehelper.PageHelper;
+import com.lh.cloud.common.entity.User;
 import com.lh.cloud.common.param.response.Result;
+import com.lh.cloud.common.util.UserProvider;
 import com.lh.cloud.framework.mybaitisplus.util.controller.BaseController;
-import com.lh.cloud.framework.redis.util.UserProvider;
 import com.lh.cloud.kafka.service.KafkaMessageConsumer;
 import com.lh.cloud.kafka.service.KafkaMessageSender;
 import com.lh.cloud.user.api.RoleApi;
 import com.lh.cloud.user.api.UserApi;
 import com.lh.cloud.user.convert.UserConvert;
-import com.lh.cloud.user.domain.User;
 import com.lh.cloud.user.domain.param.response.UserVO;
 import com.lh.cloud.user.service.IUserService;
 import com.lh.cloud.user.service.TestService;

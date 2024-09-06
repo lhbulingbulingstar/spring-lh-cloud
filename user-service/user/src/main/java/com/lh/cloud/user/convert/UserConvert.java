@@ -1,7 +1,7 @@
 package com.lh.cloud.user.convert;
 
 import com.lh.cloud.user.domain.param.response.UserVO;
-import com.lh.cloud.user.domain.User;
+import com.lh.cloud.common.entity.User;
 import org.mapstruct.Mapper;
 
 /**

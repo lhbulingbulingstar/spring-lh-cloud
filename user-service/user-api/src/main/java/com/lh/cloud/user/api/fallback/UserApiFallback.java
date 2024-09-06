@@ -2,7 +2,7 @@ package com.lh.cloud.user.api.fallback;
 
 import com.lh.cloud.common.param.response.Result;
 import com.lh.cloud.user.api.UserApi;
-import com.lh.cloud.user.domain.User;
+import com.lh.cloud.common.entity.User;
 import org.springframework.stereotype.Component;
 
 /**

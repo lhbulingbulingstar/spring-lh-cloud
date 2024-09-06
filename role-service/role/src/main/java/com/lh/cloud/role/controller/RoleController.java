@@ -1,10 +1,10 @@
 package com.lh.cloud.role.controller;
 
 import com.lh.cloud.common.param.response.Result;
-import com.lh.cloud.framework.redis.util.UserProvider;
+import com.lh.cloud.common.util.UserProvider;
 import com.lh.cloud.role.domain.Role;
 import com.lh.cloud.role.service.IRoleService;
-import com.lh.cloud.user.domain.User;
+import com.lh.cloud.common.entity.User;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
