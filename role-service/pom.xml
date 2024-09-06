@@ -21,8 +21,8 @@
         <dependency>
             <groupId>com.lh.cloud</groupId>
             <artifactId>log</artifactId>
-            <type>pom</type>
             <version>${project.version}</version>
+            <type>pom</type>
         </dependency>
     </dependencies>
     <properties>
