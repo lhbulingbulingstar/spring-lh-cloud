@@ -21,6 +21,7 @@
             <groupId>com.lh.cloud</groupId>
             <artifactId>log</artifactId>
             <version>${project.version}</version>
+            <type>pom</type>
         </dependency>
     </dependencies>
     <properties>
